@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq.css">
+</head>
+<body>
+    <nav class="navigation" id="navbar">
+        <h2 class="logo">Karan <span>Jadhav</span></h2>
+        <div class="list-elements">
+            <li ><a href="#home" style="color: blue;">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <h2 class="logo">Karan <span>Jadhav</span></h2>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" id="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links" id="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav> 
+    <div class="line"></div> 
+
+    <section id="home" class="home">
+        <div class="profile-pic">
+            <img src="./images/profile-pic.jpeg" alt="" srcset="">
+        </div>
+        <div class="profile-info">
+            <p>Hello I'm</p>
+            <h2>Karan <span>Jadhav</span></h2>
+            <p>Full Stack Developer</p>
+            <div class="btns">
+                <button class="BTN Download_CV">
+                    <a href="./images/resume-example.pdf">Downlaod CV</a>
+                </button>
+                <button class="BTN Contact">
+                    <a href="./images/resume-example.pdf">Contact Us</a>
+                                </button>
+            </div>
+            <div class="logo-images">
+                <a href="http://linkedin.com/in/KaranJadhav8112003"><img src="./images/linkdin.png" class="logo-pic" alt="" srcset=""></a>
+
+                <a href="http://github.com"><img src="./images/github.png" class="logo-pic" alt="" srcset=""></a>
+            </div>
+        </div>
+    </section> 
+    <div class="line"></div>
+
+    <section id="about" class="about">
+        <p>Get to know more</p>
+        <h2>About Me</h2>
+        <div class="about-upperContainer">
+
+        
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./images/profile-pic.jpeg" alt="" srcset="">
+            </div>
+            <div class="about-info">
+                <div class="about-card">
+                    <div class="about-experience block">
+                        <img src="./images/experience.png" alt="" class="logo-pic">
+                        <h3>Experience</h3>
+                        <p>1.5+ Years</p>
+                        <p>Full Stack Development</p>
+                    </div>
+                    <div class="about-education block">
+                        <img src="./images/education.png" alt="" class="logo-pic">
+                        <h3>Education</h3>
+                        <p>Studying in Third Year</p>
+                        <p>Computer Engineering</p>
+                    </div>
+                </div>
+                <div class="about-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut facilis voluptas voluptate aperiam placeat itaque non minus ullam nostrum magnam doloremque, odit consectetur blanditiis totam, consequatur mollitia harum aliquid praesentium quia distinctio accusantium laboriosam id suscipit? Nobis, sint. Est, temporibus!
+                </div>
+            </div>
+        </div>
+    </div>
+        <a href="#skills" class="arrow"><img src="./images/arrow.png" class="logo-pic" alt=""></a>
+        
+    </section>
+
+    <div class="line"></div>
+
+    <section class="skills" id="skills">
+        <p>Explore my</p>
+        <h2>Skills</h2>
+        <div class="large-container">
+            <div class="skill-container">
+                <h2>Lannguages </h2>
+                <div class="skill">
+                    <img src="./images/c-.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>C++</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/java.png" class="logo-pic" alt="" srcset="">
+                    
+                    <div class="skill-level">
+                        <h3>Java</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/python.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Python</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/javascript.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Javascript</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>   
+                
+            </div>
+            <div class="skill-container">
+                <h2>Frontend</h2>
+                <div class="skill">
+                    <img src="./images/html-5.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>HTML</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/css-3.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>CSS</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/bootstrap.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Bootstrap</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Basic</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/react.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>React</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>   
+                
+            </div>
+            
+            <div class="skill-container">
+                <h2>Backend </h2>
+                <div class="skill">
+                    <img src="./images/node-js.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Node JS</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/express-js-icon.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Express JS</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Basic</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/nextjs.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Next JS</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Basic</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/php.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>PHP</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Basic</h5>
+                    </div>
+                </div>   
+                
+            </div>
+            <div class="skill-container">
+                <h2>Database</h2>
+                <div class="skill">
+                    <img src="./images/mysql.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>MySql</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/mongo.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Mongo DB</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="./images/firebase.png" class="logo-pic" alt="" srcset="">
+                    <div class="skill-level">
+                        <h3>Firebase</h4>
+                        <h5 style="color: rgba(85, 85, 85,85);">Intermediate</h5>
+                    </div>
+                </div>
+      
+                
+            </div>
+        </div>
+        <a href="#projects" class="arrow"><img src="./images/arrow.png" class="logo-pic" alt=""></a>
+    </section>
+
+    
+
+    
+    <div class="line"></div>
+    <section class="projects" id="projects">
+        <p>Browse My Recent</p>
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="./images/to-do-list.png" alt="" class="project-img">
+                <h3 class="project-title">
+                    To-Do List
+                </h3>
+                <div class="btns">
+                    <button class="BTN Download_CV">
+                        <a href="../html-css-js-portfolio-tutorial-2-main/TODO/index.html">Live Demo</a>
+                    </button>
+                    <button class="BTN Contact">
+                        <a href="http://github.com">Github</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./images/to-do-list.png" alt="" class="project-img">
+                <h3 class="project-title">
+                    Notes App
+                </h3>
+                <div class="btns">
+                    <button class="BTN Download_CV">
+                        <a href="../html-css-js-portfolio-tutorial-2-main/TODO/index.html">Live Demo</a>
+                    </button>
+                    <button class="BTN Contact">
+                        <a href="http://github.com">Github</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./images/to-do-list.png" alt="" class="project-img">
+                <h3 class="project-title">
+                    Spotify Clone
+                </h3>
+                <div class="btns">
+                    <button class="BTN Download_CV">
+                        <a href="../html-css-js-portfolio-tutorial-2-main/TODO/index.html">Live Demo</a>
+                    </button>
+                    <button class="BTN Contact">
+                        <a href="http://github.com">Github</a>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+
+        <a href="#contact" class="arrow"><img src="./images/arrow.png" class="logo-pic" alt=""></a>
+
+    </section>
+    <div class="line"></div>
+
+    <section class="contact" id="contact">
+        <p>Get in touch</p>
+        <h2>Contact Me</h2>
+        <div class="contactInfoUpperContainer">
+            <div class="contactInfoContainer">
+                <img src="./images/email.png" alt="email-icon" class="email logo-pic">
+                <p><a href="mailto:karanjadhav8112003@gmail.com" class="email-title">Example@gmaill.com</a></p>
+            </div>
+            <div class="contactInfoContainer">
+                <img src="./images/linkdin.png" alt="linkdin-icon" class="linkedin logo-pic">
+                <p><a href="https://www.linkedin.com/in/KaranJadhav8112003/" class="email-title">www.Linkedin.com</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+
+        <div class="list-elements">
+            <li ><a href="#home" >Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            
+        </div>
+        <p>Copyright &#169; 2023 Karan Jadhav. All Rights Reserved.</p>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
