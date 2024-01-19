@@ -21,7 +21,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0, 0, 0, 0.04);
+    background-color: #edf6f9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 .navigation h2 span{
     color: blue;
@@ -232,6 +237,7 @@ p{
 #about p,h2{
     text-align: center;
 }
+
 .about-img img{
     height: 480px;
     width: 480px;
@@ -274,6 +280,11 @@ p{
     padding: 20px;
     font-size: 20px;
     font-weight: 400;
+
+}
+.about-para span{
+    font-weight: 600;
+    color: darkblue;
 }
 
 .arrow{
